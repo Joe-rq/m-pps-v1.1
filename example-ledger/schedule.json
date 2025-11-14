@@ -1,0 +1,11 @@
+{
+  "module": "schedule",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-12T00:00:00Z",
+  "data": [],
+  "metadata": {
+    "source_skill": "personal.schedule.manager",
+    "version": "1.1.0",
+    "checksum": "sha256:ade1f5522bb3d726dad6a41fba36e2112bf15033c67ec9104ce5858cb285ff37"
+  }
+}

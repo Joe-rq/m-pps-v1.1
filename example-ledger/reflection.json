@@ -1,0 +1,11 @@
+{
+  "module": "reflection",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-12T00:00:00Z",
+  "data": [],
+  "metadata": {
+    "source_skill": "reflection.manager",
+    "version": "1.1.0",
+    "checksum": "sha256:fee0a761f9214232ef27db844704f4db62eba2a0f09c2c2aca02431372e46512"
+  }
+}

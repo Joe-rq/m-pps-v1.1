@@ -1,0 +1,41 @@
+{
+  "registry": "M-PPS Ledger System",
+  "schema": "StructureDNA-v1.0",
+  "last_sync": "2025-11-13T01:41:42.077445+00:00",
+  "ledgers": [
+    {
+      "module": "profile",
+      "path": "/ledger/profile.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.0.0",
+      "checksum": "sha256:343f52c3f72798f0736d36c27bd17f8aec6f1b3f6594106fb0fadac01b89c68d"
+    },
+    {
+      "module": "goal",
+      "path": "/ledger/goal.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "checksum": "sha256:a3393aabc8e4ade5244b60952b354a1d8296d7b3b1f07e37b299421782cc0639"
+    },
+    {
+      "module": "schedule",
+      "path": "/ledger/schedule.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "checksum": "sha256:ade1f5522bb3d726dad6a41fba36e2112bf15033c67ec9104ce5858cb285ff37"
+    },
+    {
+      "module": "reflection",
+      "path": "/ledger/reflection.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "checksum": "sha256:fee0a761f9214232ef27db844704f4db62eba2a0f09c2c2aca02431372e46512"
+    }
+  ],
+  "metadata": {
+    "total_ledgers": 4,
+    "integrity_status": "verified",
+    "last_updated": "2025-11-13T01:41:42.077466+00:00",
+    "checksum": "sha256:89bc1ba66ef2c9d8c501ac19884f2f9b3647a7fc0dd81d4dffcf4e8996502bd2"
+  }
+}

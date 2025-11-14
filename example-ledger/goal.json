@@ -1,0 +1,29 @@
+{
+  "module": "goal",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-12T00:00:00Z",
+  "data": [
+    {
+      "id": "G-001",
+      "title": "Create a full user tutorial and manual for M-PPS",
+      "status": "open",
+      "tags": [
+        "documentation",
+        "tutorial",
+        "M-PPS",
+        "user-manual",
+        "creative-writing"
+      ],
+      "notes": "Comprehensive user tutorial covering: system overview, installation/setup, core concepts, module-by-module guides, workflow examples, troubleshooting, and best practices. Should be accessible to both technical and non-technical users.",
+      "created_at": "2025-11-12T00:00:00-05:00",
+      "updated_at": "2025-11-12T00:00:00-05:00",
+      "dispatch_to": "personal.schedule.manager",
+      "related_entries": []
+    }
+  ],
+  "metadata": {
+    "source_skill": "goal.manager",
+    "version": "1.1.0",
+    "checksum": "sha256:a3393aabc8e4ade5244b60952b354a1d8296d7b3b1f07e37b299421782cc0639"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "module": "profile",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-12T00:00:00Z",
+  "data": [
+    {
+      "id": "P-001",
+      "title": "Personal Chrono-Cognitive Preferences",
+      "profile": "personal_preferences",
+      "owner": {
+        "name": "User",
+        "timezone": "EST (UTC-5)"
+      },
+      "work_schedule": {
+        "daily_start": "10:00",
+        "daily_end": "22:00",
+        "total_hours": "11-12h"
+      },
+      "energy_curve": {
+        "low_energy": {
+          "time": "09:00-11:00",
+          "level": "low"
+        },
+        "moderate_energy": {
+          "time": "11:00-14:00",
+          "level": "moderate"
+        },
+        "stable_energy": {
+          "time": "14:00-19:00",
+          "level": "stable"
+        },
+        "peak_creativity": {
+          "time": "19:00-22:00",
+          "level": "peak"
+        }
+      },
+      "constraints": {
+        "earliest_start": "09:00",
+        "latest_end": "22:00",
+        "must_stop_by": "22:00"
+      },
+      "break_preferences": {
+        "lunch": {
+          "time": "12:30-13:30",
+          "duration": "60min"
+        },
+        "dinner": {
+          "time": "18:00-19:00",
+          "duration": "60min"
+        }
+      },
+      "work_style": {
+        "preferred_block_length": "90-120min",
+        "focus_method": "pomodoro"
+      },
+      "task_allocation_rules": {
+        "morning_10_11": [
+          "warm-up",
+          "review",
+          "planning",
+          "light reading"
+        ],
+        "midday_11_14": [
+          "research",
+          "organizing",
+          "outlining"
+        ],
+        "afternoon_14_18": [
+          "implementation",
+          "testing"
+        ],
+        "evening_19_22": [
+          "creative writing",
+          "design",
+          "conceptual thinking",
+          "strategic planning"
+        ]
+      },
+      "tags": [
+        "profile",
+        "biological-rhythm",
+        "energy-aware"
+      ]
+    }
+  ],
+  "metadata": {
+    "source_skill": "auto.profile.generator",
+    "version": "1.0.0",
+    "checksum": "sha256:343f52c3f72798f0736d36c27bd17f8aec6f1b3f6594106fb0fadac01b89c68d"
+  }
+}
