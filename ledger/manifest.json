@@ -1,0 +1,43 @@
+{
+  "registry": "M-PPS Ledger System",
+  "schema": "StructureDNA-v1.0",
+  "last_sync": "2025-11-15T12:33:00+08:00",
+  "ledgers": [
+    {
+      "module": "profile",
+      "path": "/ledger/profile.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.0.0",
+      "status": "active"
+    },
+    {
+      "module": "goal",
+      "path": "/ledger/goal.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "status": "active"
+    },
+    {
+      "module": "schedule",
+      "path": "/ledger/schedule.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "status": "active"
+    },
+    {
+      "module": "reflection",
+      "path": "/ledger/reflection.json",
+      "schema": "StructureDNA-v1.0",
+      "version": "1.1.0",
+      "status": "active"
+    }
+  ],
+  "metadata": {
+    "total_ledgers": 4,
+    "integrity_status": "initialized",
+    "last_updated": "2025-11-15T12:33:00+08:00",
+    "owner": "User",
+    "purpose": "Learning Claude Skills using M-PPS v1.1"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "module": "reflection",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-15T12:33:00+08:00",
+  "data": [],
+  "metadata": {
+    "source_skill": "reflection.manager",
+    "version": "1.1.0",
+    "total_reflections": 0,
+    "notes": "反思条目将在完成任务后自动生成，用于记录学习收获、遇到的问题和改进建议"
+  }
+}
+

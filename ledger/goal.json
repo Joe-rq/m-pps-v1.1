@@ -1,0 +1,101 @@
+{
+  "module": "goal",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-15T12:33:00+08:00",
+  "data": [
+    {
+      "id": "G-001",
+      "title": "学习并掌握 Claude Skills 开发与应用",
+      "status": "open",
+      "description": "系统性学习 Claude Skills 的创建、配置和使用，通过 M-PPS 项目实践理解 AI 原生系统设计",
+      "sub_goals": [
+        "理解 Claude Skills 的基本概念和架构",
+        "学习 Structure DNA v1.0 规范",
+        "掌握四个核心 Skills 的工作原理",
+        "实践创建自己的 Claude Skill",
+        "构建完整的个人 M-PPS 系统"
+      ],
+      "expected_outcomes": [
+        "能够独立创建 Claude Skills",
+        "理解 Language Logic Core 的工作机制",
+        "掌握账本系统（Ledger）的设计模式",
+        "能够应用 M-PPS 管理个人目标和项目"
+      ],
+      "learning_path": "理论学习 → 实践操作 → 系统构建 → 反思优化",
+      "tags": [
+        "learning",
+        "claude-skills",
+        "m-pps",
+        "ai-native",
+        "personal-development"
+      ],
+      "priority": "high",
+      "estimated_duration": "2-3 weeks",
+      "notes": "建议每天投入 2-3 小时，结合文档阅读和动手实践",
+      "dispatch_to": "personal.schedule.manager",
+      "related_entries": [],
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "G-002",
+      "title": "理解 M-PPS 系统架构",
+      "status": "open",
+      "parent_goal": "G-001",
+      "description": "深入理解 M-PPS 的四层架构：Structure DNA → M-PPS → Skills → Ledger",
+      "learning_materials": [
+        "Structure DNA v1.0 规范",
+        "M-PPS Specification v1.1",
+        "Language Logic Core v1.1",
+        "Profile Generator v1.1"
+      ],
+      "tags": [
+        "learning",
+        "architecture",
+        "m-pps",
+        "foundation"
+      ],
+      "priority": "high",
+      "estimated_duration": "3-5 days",
+      "notes": "这是基础，需要先掌握核心概念",
+      "dispatch_to": "personal.schedule.manager",
+      "related_entries": ["G-001"],
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "G-003",
+      "title": "实践四个核心 Claude Skills",
+      "status": "open",
+      "parent_goal": "G-001",
+      "description": "逐一学习并测试 goal-manager, schedule-manager, reflection-manager, ledger-registry",
+      "practice_steps": [
+        "导入 goal-manager Skill 并创建测试目标",
+        "导入 schedule-manager 并生成日程",
+        "导入 reflection-manager 并记录反思",
+        "导入 ledger-registry 并验证账本完整性"
+      ],
+      "tags": [
+        "learning",
+        "practice",
+        "skills",
+        "hands-on"
+      ],
+      "priority": "high",
+      "estimated_duration": "1 week",
+      "notes": "需要在 Claude 中实际操作",
+      "dispatch_to": "personal.schedule.manager",
+      "related_entries": ["G-001", "G-002"],
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    }
+  ],
+  "metadata": {
+    "source_skill": "goal.manager",
+    "version": "1.1.0",
+    "total_goals": 3,
+    "active_goals": 3,
+    "notes": "学习 Claude Skills 的完整目标体系"
+  }
+}
+

@@ -1,0 +1,180 @@
+{
+  "module": "schedule",
+  "schema": "StructureDNA-v1.0",
+  "last_updated": "2025-11-15T12:33:00+08:00",
+  "data": [
+    {
+      "id": "S-001",
+      "title": "第1天：学习 M-PPS 系统概述和 Structure DNA",
+      "goal_id": "G-002",
+      "status": "scheduled",
+      "start": "2025-11-15T14:00:00+08:00",
+      "due": "2025-11-15T16:00:00+08:00",
+      "duration": "2h",
+      "energy_zone": "stable",
+      "tasks": [
+        "阅读 M-PPS README.md 了解系统概览",
+        "学习 Structure DNA v1.0 规范文档",
+        "理解字段模式（Field Genome）和状态机",
+        "记录学习笔记和疑问"
+      ],
+      "notes": "第一天建立整体认知框架，不求深入但求全面理解",
+      "tags": [
+        "learning",
+        "day-1",
+        "foundation",
+        "structure-dna"
+      ],
+      "related_entries": ["G-002"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "S-002",
+      "title": "第1天：晚间反思与总结",
+      "goal_id": "G-002",
+      "status": "scheduled",
+      "start": "2025-11-15T19:00:00+08:00",
+      "due": "2025-11-15T20:00:00+08:00",
+      "duration": "1h",
+      "energy_zone": "peak",
+      "tasks": [
+        "整理今天的学习收获",
+        "回答学习中的疑问",
+        "规划明天的学习内容",
+        "在 reflection.json 中记录"
+      ],
+      "notes": "利用晚间创造力高峰期进行深度思考和总结",
+      "tags": [
+        "reflection",
+        "day-1",
+        "evening",
+        "summary"
+      ],
+      "related_entries": ["G-002", "S-001"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "S-003",
+      "title": "第2天：深入学习 M-PPS Specification 和 LLC",
+      "goal_id": "G-002",
+      "status": "scheduled",
+      "start": "2025-11-16T14:00:00+08:00",
+      "due": "2025-11-16T16:30:00+08:00",
+      "duration": "2.5h",
+      "energy_zone": "stable",
+      "tasks": [
+        "学习 M-PPS Specification v1.1",
+        "理解七大模块的生命隐喻",
+        "学习 Language Logic Core v1.1",
+        "理解认知循环：意图→结构→调度→反思→学习"
+      ],
+      "notes": "重点理解系统的哲学思想和工作机制",
+      "tags": [
+        "learning",
+        "day-2",
+        "m-pps",
+        "llc"
+      ],
+      "related_entries": ["G-002"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "S-004",
+      "title": "第3天：学习四个核心 Claude Skills",
+      "goal_id": "G-003",
+      "status": "scheduled",
+      "start": "2025-11-17T10:00:00+08:00",
+      "due": "2025-11-17T12:00:00+08:00",
+      "duration": "2h",
+      "energy_zone": "moderate",
+      "tasks": [
+        "阅读 goal-manager SKILL.md",
+        "阅读 personal-schedule-manager SKILL.md",
+        "阅读 reflection-manager SKILL.md",
+        "阅读 ledger-registry SKILL.md",
+        "理解每个 Skill 的输入输出和工作机制"
+      ],
+      "notes": "理解 Skills 的设计模式和协作机制",
+      "tags": [
+        "learning",
+        "day-3",
+        "skills",
+        "documentation"
+      ],
+      "related_entries": ["G-003"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "S-005",
+      "title": "第3-4天：实践导入和使用 Claude Skills",
+      "goal_id": "G-003",
+      "status": "scheduled",
+      "start": "2025-11-17T14:00:00+08:00",
+      "due": "2025-11-17T17:00:00+08:00",
+      "duration": "3h",
+      "energy_zone": "stable",
+      "tasks": [
+        "在 Claude 中导入第一个 Skill（goal-manager）",
+        "测试创建目标功能",
+        "导入 schedule-manager 并测试",
+        "导入 reflection-manager 并测试",
+        "验证账本文件的生成和更新"
+      ],
+      "notes": "动手实践是最重要的学习环节，遇到问题及时记录",
+      "tags": [
+        "practice",
+        "day-3-4",
+        "hands-on",
+        "skills"
+      ],
+      "related_entries": ["G-003"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    },
+    {
+      "id": "S-006",
+      "title": "第5-7天：构建完整的个人 M-PPS 系统",
+      "goal_id": "G-001",
+      "status": "scheduled",
+      "start": "2025-11-19T14:00:00+08:00",
+      "due": "2025-11-19T17:00:00+08:00",
+      "duration": "3h",
+      "energy_zone": "stable",
+      "tasks": [
+        "根据个人需求定制 profile.json",
+        "创建自己的真实目标",
+        "生成完整的学习/工作日程",
+        "实践完整的工作流程",
+        "优化和调整系统参数"
+      ],
+      "notes": "将系统应用到实际生活中，形成完整闭环",
+      "tags": [
+        "practice",
+        "day-5-7",
+        "integration",
+        "personal-system"
+      ],
+      "related_entries": ["G-001", "G-002", "G-003"],
+      "dispatch_to": "reflection.manager",
+      "created_at": "2025-11-15T12:33:00+08:00",
+      "updated_at": "2025-11-15T12:33:00+08:00"
+    }
+  ],
+  "metadata": {
+    "source_skill": "personal.schedule.manager",
+    "version": "1.1.0",
+    "total_schedules": 6,
+    "scheduled_tasks": 6,
+    "notes": "基于能量周期优化的学习计划，可根据实际情况调整"
+  }
+}
+
